@@ -7,18 +7,55 @@
     <title>Document</title>
 </head>
 <style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1000px;
+        margin: auto;
+        text-align: center;
+        padding: 20px;
+    }
     span{
         cursor: pointer;
         color: #fff;
         background-color: red;
         padding: 5px;
     }
+
+    li{
+        margin-top: 20px;
+        list-style: none;
+    }
+    input{
+        width: 100%;
+        max-width: 200px;
+        height: 30px;
+        outline: none;
+        padding-left: 10px;
+    }
+    button{
+        width: 50px;
+        height: 30px;
+        color: #fff;
+        background-color: blue;
+        border: none;
+    }
+
+    button:hover{
+        background-color: green;
+    }
 </style>
 <body>
-    <input type="text" id="input">
-    <button type="submit" id="submit">add</button>
+    <div class="container">
+        
+        <input type="text" id="input" placeholder="Nhập bất cứ gì bạn muốn...">
+        <button type="submit" id="submit">add</button>
 
-    <ul id="list"></ul>
+        <ul id="list"></ul>
+    </div>
 </body>
 <script src="index.js"></script>
 </html>
