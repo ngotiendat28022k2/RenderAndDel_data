@@ -1,0 +1,16 @@
+1. IIFE
+IIFE là viết tắt của Immediately Invoked Function Expression
+, có nghĩa là khởi tạo một function và thực thi nó ngay lập tức.
+
+2. Closures
+
+
+3. Hoisting
+4. Strict mode
+5. This Keyword
+6. Bind method
+7. Call method
+8. Apply method
+9. Catching, throwing errors
+10. Promise
+11. Async function, await
