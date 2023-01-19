@@ -2,7 +2,7 @@ const $= document.querySelector.bind(document)
 const $$= document.querySelectorAll.bind(document)
 
 const app = (() => {
-    const cars = ['con chào bố Đạt']
+    const cars = ['hehe']
 
     const list = $('#list')
     const input = $('#input')
